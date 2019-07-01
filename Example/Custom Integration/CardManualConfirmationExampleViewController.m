@@ -117,9 +117,9 @@
                                                                                                                    [self.delegate exampleViewController:self didFinishWithError:handlerError];
                                                                                                                } else if (handlerStatus == STPPaymentHandlerActionStatusCanceled) {
                                                                                                                    [self.delegate exampleViewController:self didFinishWithMessage:@"Canceled authentication"];
-                                                                                                                  } else {
-                                                                                                                      [self.delegate exampleViewController:self didFinishWithMessage:@"Payment successfully created"];
-                                                                                                                  }
+                                                                                                               } else {
+                                                                                                                   [self.delegate exampleViewController:self didFinishWithMessage:@"Payment successfully created"];
+                                                                                                               }
                                                                                                            }];
                                                     } else {
                                                         [self.delegate exampleViewController:self didFinishWithMessage:@"Payment successfully created"];
